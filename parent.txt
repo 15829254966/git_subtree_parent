@@ -1,0 +1,24 @@
+parent
+
+ignore@zhanghuan MINGW64 /e/procedure/gitpro/gitbare
+$ pwd
+/e/procedure/gitpro/gitbare
+
+ignore@zhanghuan MINGW64 /e/procedure/gitpro/gitbare
+$ git init -bare
+error: did you mean `--bare` (with two dashes ?)
+
+ignore@zhanghuan MINGW64 /e/procedure/gitpro/gitbare
+$ git init --bare
+Initialized empty Git repository in E:/procedure/gitpro/gitbare/
+
+ignore@zhanghuan MINGW64 /e/procedure/gitpro/gitbare (BARE:master)
+$ ls
+config  description  HEAD  hooks/  info/  objects/  refs/
+
+ignore@zhanghuan MINGW64 /e/procedure/gitpro/gitbare (BARE:master)
+$
+
+
+
+
